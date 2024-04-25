@@ -1,0 +1,1 @@
+This project is for me to build the Chaotic Potato Landing page. I may implement the React framework later on, but currently this will be HTML, CSS, and JS only
