@@ -1,0 +1,9 @@
+/*VARS*/
+:root {
+    --primary-color: purple;
+  }
+
+/*Scroll behavior*/
+html {
+    scroll-behavior: smooth;
+  }
