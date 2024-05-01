@@ -1,9 +1,82 @@
 /*VARS*/
 :root {
-    --primary-color: purple;
+    --primary-color: #01295F;
+    --primary-accent: #426B69;
+    --bgbase: #E8E5DA;
+    --bgshadow: #050608;
+    --secondary-color: #710627;
+    --secondary-accent: #9E1946;
   }
 
 /*Scroll behavior*/
 html {
     scroll-behavior: smooth;
+  }
+
+  body{
+    background-color: var(--bgbase);
+  }
+
+  #nav{
+    position: sticky;
+  }
+
+  #navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--primary-color);
+    text-shadow: var(--primary-accent);
+  }
+
+#navItems li{
+    list-style-type: none;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  #pallet{
+    display: flex;
+    justify-content: center;
+  }
+
+  .palletCont{
+    border-width: 2px;
+    border-style: solid;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    overflow: visible;
+  }
+
+  #prm{
+    background-color: var(--primary-color);
+    border-color: var(--primary-accent);
+  }
+
+  #second{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-accent);
+  }
+
+  #bg{
+    border-color: var(--bgshadow)
+  }
+
+  .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-width: 1px;
+    border-style: solid;
+
+    background-color: var(--bgbase);
+    height: 50px;
+    width: 100px;
+    box-shadow: 0px -2px 2px var(--bgshadow);
   }
